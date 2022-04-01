@@ -3,6 +3,7 @@ package main;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
 
@@ -14,7 +15,8 @@ public class Main {
 			System.out.println(elt);
 		}
 		
-		ArrayList<String> list = new ArrayList<>(10);
+		List<String> list = new ArrayList<>(10);
+		List<Integer> ll = new LinkedList<>();
 		System.out.println(list.size());
 		list.add("a");
 		System.out.println(list.size());
@@ -30,7 +32,7 @@ public class Main {
 
 			val = 
 					list.get(1);
-		LinkedList<Integer> ll = new LinkedList<>();
+		
 		ll.add(new Integer(8));
 		ll.add(2);
 		

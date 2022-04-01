@@ -1,6 +1,8 @@
 package x;
 
-public class User implements Auth{
+import interf.I;
+
+public class User implements Auth, I{
 	
 	private String name;
 	private String email;
@@ -12,6 +14,14 @@ public class User implements Auth{
 	public void auth() {
 		// TODO Auto-generated method stub
 		// code
+	}
+
+
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -30,6 +30,12 @@ public class ReservationIndividual extends Reservation {
 		return individual;
 	}
 	
+	public static List<ReservationIndividual> makeManyIndivReservation(Customer customer,int nbReservation,String showTitle, LocalDateTime reservationDate) {
+		List<ReservationIndividual> individuals = null;
+		
+		return individuals;
+	}
+	
 
 	
 
